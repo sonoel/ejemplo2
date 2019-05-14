@@ -165,7 +165,7 @@ function queryDetalleSuccess(tx, results) {
 		$("#foto_img").attr("src", _foto);
 		$("#nombre").html($.registro.nombre + " " + $.registro.apellidos);
 		$("#num_tel").html($.registro.telefono);
-		$("#telefono").attr("href", "tel:" + $.registro.telefono);
+		$("#telefono").attr("href", $.registro.telefono);
 		$("#label_mail").html("Mail: " + $.registro.email);
 }
 
