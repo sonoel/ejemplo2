@@ -25,6 +25,9 @@
 	margin-bottom:10px;
 }
 
+#paypal {
+	width: 10%;
+}
 
 #foto, #fotoEdit{
 	text-align:center;
