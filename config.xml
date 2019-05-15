@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns = "http://www.w3.org/ns/widgets"
     xmlns:gap = "http://phonegap.com/ns/1.0"
-    id        = "com.phonegap.agenda-ej"
+    id        = "com.phonegap.nscm"
     version   = "1.0.0">
 
-<name>Catalogo</name>
+<name>Catalogo de Servicios</name>
 
 <description>
 Ejemplo sencillo de agenda con fotos
@@ -13,11 +13,13 @@ Ejemplo sencillo de agenda con fotos
 <author href="" email="">
 Academico
 </author>
+
 <icon src="images/icono-agenda.png" gap:density="ldpi" gap:platform="android" />
 <icon src="images/icono-agenda.png" gap:density="mdpi" gap:platform="android" />
 <icon src="images/icono-agenda.png" gap:density="hdpi" gap:platform="android" />
 <icon src="images/icono-agenda.png" gap:density="xhdpi" gap:platform="android" />
 
+<plugin name="cordova-plugin-inappbrowser" spec="~3.0.0" />
 <access origin="mailto:*" launch-external="yes"/>
 <access origin="tel:*" launch-external="yes"/>
 
