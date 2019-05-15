@@ -1,20 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
 
-
-.contenedor {
-  width: 320px;
-  border: 1px solid #ccc;
-  text-align: center;
-  padding: 10px;
-  background-color: #e5e5e5;
-}
-
-.combo {
-  vertical-align: middle;
-  width: 50px;
-}
-
 .img_peq{
 	width:30px;
 	height:30px;

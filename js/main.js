@@ -293,8 +293,3 @@ function newFormSuccess(tx, results) {
 	
 	$.mobile.changePage("#home");
 }
-
-function onSubmit() {
-  document.donation.amount.value = document.donation.amount.value;
-  return true;
-}

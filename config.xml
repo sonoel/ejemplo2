@@ -9,11 +9,11 @@
 <name>Catalogo de Servicios</name>
 
 <description>
-Ejemplo sencillo de agenda con fotos
+Catálogo de Servicios
 </description>
 
-<author href="" email="">
-Academico
+<author href="" email="sonoel_97@hotmail.com">
+Noel Sánchez
 </author>
 
 <icon src="images/icono-agenda.png" gap:density="ldpi" gap:platform="android" />
