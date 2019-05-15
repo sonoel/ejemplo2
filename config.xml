@@ -21,7 +21,4 @@ Academico
 <icon src="images/icono-agenda.png" gap:density="hdpi" gap:platform="android" />
 <icon src="images/icono-agenda.png" gap:density="xhdpi" gap:platform="android" />
 
-<plugin name="cordova-plugin-dialogs" spec="~1.3.3" />
-
-
 </widget>
