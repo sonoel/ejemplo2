@@ -4,6 +4,8 @@
     id        = "com.phonegap.nscm"
     version   = "1.0.0">
 
+<plugin name="cordova-plugin-inappbrowser" spec="~3.0.0" />
+
 <name>Catalogo de Servicios</name>
 
 <description>
@@ -18,10 +20,6 @@ Academico
 <icon src="images/icono-agenda.png" gap:density="mdpi" gap:platform="android" />
 <icon src="images/icono-agenda.png" gap:density="hdpi" gap:platform="android" />
 <icon src="images/icono-agenda.png" gap:density="xhdpi" gap:platform="android" />
-
-<plugin name="cordova-plugin-inappbrowser" spec="~3.0.0" />
-<access origin="mailto:*" launch-external="yes"/>
-<access origin="tel:*" launch-external="yes"/>
 
 <plugin name="cordova-plugin-dialogs" spec="~1.3.3" />
 
